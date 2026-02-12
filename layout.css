@@ -1,0 +1,88 @@
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+h1 {
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.h1 {
+  display: grid;
+  grid-column: 1;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.order {
+  order: -1;
+}
+
+.grid_5-3 {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+}
+
+.grid_2-3 {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.grid_3-2 {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.span2x2 {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.span1x1 {
+  display: grid;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.span2x1 {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.span3x1 {
+  display: grid;
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.galleritekst {
+  display: grid;
+  max-width: 65ch;
+  grid-column: 2;
+}
+
+.h2 {
+  align-self: end;
+}
